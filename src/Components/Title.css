@@ -1,0 +1,17 @@
+.Container{
+display: flex;
+flex-direction: column;
+height: 10rem;
+
+color: white;
+justify-content: center;
+align-items: center;
+}
+
+.heading{
+font-weight: bolder;
+}
+.subheading{
+
+font-weight: bold;
+}

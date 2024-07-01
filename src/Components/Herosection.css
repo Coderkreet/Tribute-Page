@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+.container {
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+img {
+  object-fit: contain;
+  width: 100%;
+  height: 100vh;
+}
+
+.architects-daughter-regular {
+  font-family: "Architects Daughter", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+headline {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+}
+
+.container-hearo {
+  display: flex;
+  justify-content: center;
+  align-items: stretch; /* Ensure children stretch to same height */
+  column-gap: 3rem;
+  height: auto;
+  width: 100%; /* Ensure full width for proper alignment */
+  margin-bottom: 7rem;
+}
+
+.left-div,
+.right-div {
+  background-color: aliceblue;
+  flex: 1; /* Flex-grow to ensure equal height */
+  padding: 1rem; /* Add padding for better spacing */
+  border-radius: 10px;
+}
+
+.right-div img {
+  width: 25rem;
+  height: 25rem;
+  margin-bottom: 1rem; /* Add margin for spacing */
+}
+
+.right-div{
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
